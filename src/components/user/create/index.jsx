@@ -48,8 +48,8 @@ const Create = () => {
             type="default"
           />
           <div>
-            <textarea name={inputValue} cols="30" rows="10">
-              asd
+            <textarea name={inputValue} cols="30" rows="10" placeholder="писать можно тутъ...">
+              
             </textarea>
           </div>
           <div className="createBoxBtn">
