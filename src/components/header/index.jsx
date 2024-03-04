@@ -26,10 +26,12 @@ const Header = () => {
   return (
     <div className="headerBox">
       {user ? (
+      <Link style={{ all: 'unset'}} to='/'>
         <div className="headerCollection firstBox">
           <img src={collect} alt="" />
           <p>Пользователь</p>
         </div>
+      </Link>
       ) : null}
       <Link style={{ all: 'unset'}} to={user ? '/admin' : '/log'}>
         <div className="headerUser firstBox">
