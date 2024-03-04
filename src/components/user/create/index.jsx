@@ -31,7 +31,12 @@ const Create = () => {
       if (num > 0) {
         setNum((e) => e - 1);
       } else {
-        navigate('/')
+        const result = window.confirm(
+          "Вы уверены, что хотите удалить элемент?"
+        );
+        if (result) {
+          navigate("/");
+        }
       }
     }
   };
@@ -48,9 +53,12 @@ const Create = () => {
             type="default"
           />
           <div>
-            <textarea name={inputValue} cols="30" rows="10" placeholder="писать можно тутъ...">
-              
-            </textarea>
+            <textarea
+              name={inputValue}
+              cols="30"
+              rows="10"
+              placeholder="писать можно тутъ..."
+            ></textarea>
           </div>
           <div className="createBoxBtn">
             <div className="backBtn arrow" onClick={clickHandler}>
