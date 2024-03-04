@@ -15,8 +15,10 @@ const Create = () => {
   const [num, setNum] = useState(0);
 
   useEffect(() => {
-    dispatch(fetchForm(id));
-  }, []);
+    if (id) {
+        dispatch(fetchForm(id));
+    }
+  }, [id]);
 
   const inputValue =
     data && data.data && data.data.length > 0 ? data.data[num] : "";
@@ -31,7 +33,7 @@ const Create = () => {
       if (num > 0) {
         setNum((e) => e - 1);
       } else {
-        
+
         const result = window.confirm(
           "Вы действительно хотите прервать заполнение формы?"
         );
