@@ -1,0 +1,19 @@
+.secondaryBtn {
+  width: 100%;
+}
+.secondaryBtn button {
+  padding: 1em 0;
+  width: 100%;
+  border-radius: 10px;
+  background-color: rgb(88, 255, 216);
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(147, 245, 132);
+  transition: background-color 0.5s, color 0.5s;
+  cursor: pointer;
+}
+.secondaryBtn button:hover {
+  background-color: rgb(239, 243, 255);
+}
+.secondaryBtn button:active {
+  background-color: rgb(255, 255, 255);
+}/*# sourceMappingURL=style.css.map */

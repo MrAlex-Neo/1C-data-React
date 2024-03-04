@@ -1,0 +1,52 @@
+.Allforms{
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    gap: 0.3em;
+    .formBox{
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        padding: 1em;
+        .formHeader{
+            display: flex;
+            position: relative;
+            justify-content: space-between;
+            align-items: center;
+            .formTitle{
+                display: flex;
+                align-items: end;
+            }
+            .equalizerFrom{
+                display: flex;
+                gap: 1em;
+                .eqImg{
+                    img{
+                        position: absolute;
+                        width: 2em;
+                        transition: width 0.1s, transform 0.3s;
+                        cursor: pointer;
+                        &:hover{
+                            width: 2.5em;
+                        }
+                        &:active{
+                            transform: rotate(360deg);
+                        }
+                    }
+                }
+                .eqDelet{
+                    img{
+                       right: 45px;
+                       bottom: 5px;
+                    }
+                }
+                .eqUpdate{
+                    img{
+                        right: 5px;
+                        bottom: 5px;
+                    }
+                }
+            }
+        }
+    }
+}

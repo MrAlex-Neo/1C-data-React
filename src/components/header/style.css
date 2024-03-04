@@ -1,0 +1,29 @@
+.headerBox {
+  display: flex;
+  justify-content: end;
+  gap: 2em;
+  padding: 0.5em 2em;
+  background-color: rgb(34, 211, 255);
+}
+.headerBox .headerCollection {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  gap: 0.2em;
+  padding: 0.5em;
+  padding-right: 1em;
+}
+.headerBox .headerCollection img {
+  width: calc(2vw + 23px);
+}
+.headerBox .headerUser {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  gap: 0.2em;
+  padding: 0.5em;
+  padding-right: 1em;
+}
+.headerBox .headerUser img {
+  width: calc(2vw + 23px);
+}/*# sourceMappingURL=style.css.map */

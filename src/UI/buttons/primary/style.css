@@ -1,0 +1,20 @@
+.primaryBtn {
+  width: 100%;
+}
+.primaryBtn button {
+  padding: 1em 0;
+  width: 100%;
+  border-radius: 10px;
+  background-color: rgb(88, 133, 255);
+  color: azure;
+  border: 1px solid rgb(132, 163, 245);
+  transition: background-color 0.5s, color 0.5s;
+  cursor: pointer;
+}
+.primaryBtn button:hover {
+  background-color: rgb(239, 243, 255);
+  color: rgb(48, 41, 248);
+}
+.primaryBtn button:active {
+  background-color: rgb(255, 255, 255);
+}/*# sourceMappingURL=style.css.map */

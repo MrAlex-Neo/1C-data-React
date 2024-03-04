@@ -1,0 +1,23 @@
+.primaryInput {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 100%;
+  input {
+    box-sizing: border-box;
+    padding: 1em 1em;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgb(132, 163, 245);
+    transition: border 0.5s;
+    &:hover {
+      border: 1px solid rgb(88, 133, 255);
+    }
+    &:focus {
+      border: 1px solid rgb(88, 133, 255);
+    }
+    &::placeholder{
+        opacity: 0.5;
+    }
+  }
+}

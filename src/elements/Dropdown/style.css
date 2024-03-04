@@ -1,0 +1,50 @@
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: rgb(221, 248, 255);
+  max-height: 200px;
+  overflow-y: auto;
+}
+.dropdown input {
+  background-color: rgb(34, 211, 255);
+  padding: 1em;
+  width: 100%;
+  transition: background-color 0.5s, color 0.5s;
+  cursor: pointer;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.dropdown input:hover {
+  background-color: rgb(157, 235, 255);
+}
+.dropdown input:active {
+  background-color: rgb(225, 249, 255);
+  color: rgb(148, 168, 172);
+}
+.dropdown input::-moz-placeholder {
+  opacity: 1;
+  color: #fff;
+}
+.dropdown input::placeholder {
+  opacity: 1;
+  color: #fff;
+}
+.dropdown .dropdown-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+.dropdown .dropdown-list .dropText {
+  padding: 0.5em 1.5em;
+  background-color: rgb(88, 255, 216);
+  border: 1px solid rgb(147, 245, 132);
+  transition: background-color 0.5s, color 0.5s;
+  cursor: pointer;
+}
+.dropdown .dropdown-list .dropText:hover {
+  background-color: rgb(239, 243, 255);
+}
+.dropdown .dropdown-list .dropText:active {
+  background-color: rgb(255, 255, 255);
+}/*# sourceMappingURL=style.css.map */

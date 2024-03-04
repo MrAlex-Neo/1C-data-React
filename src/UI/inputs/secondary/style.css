@@ -1,0 +1,28 @@
+.secondaryInput {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 100%;
+}
+.secondaryInput input {
+  box-sizing: border-box;
+  padding: 1em 1em;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid rgb(88, 255, 216);
+  transition: border 0.5s;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+.secondaryInput input:hover {
+  border: 1px solid rgb(147, 245, 132);
+}
+.secondaryInput input:focus {
+  border: 1px solid rgb(114, 255, 93);
+}
+.secondaryInput input::-moz-placeholder {
+  opacity: 0.5;
+}
+.secondaryInput input::placeholder {
+  opacity: 0.5;
+}/*# sourceMappingURL=style.css.map */

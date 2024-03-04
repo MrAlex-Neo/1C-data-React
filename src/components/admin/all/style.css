@@ -1,0 +1,46 @@
+.Allforms {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  gap: 0.3em;
+}
+.Allforms .formBox {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding: 1em;
+}
+.Allforms .formBox .formHeader {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+.Allforms .formBox .formHeader .formTitle {
+  display: flex;
+  align-items: end;
+}
+.Allforms .formBox .formHeader .equalizerFrom {
+  display: flex;
+  gap: 1em;
+}
+.Allforms .formBox .formHeader .equalizerFrom .eqImg img {
+  position: absolute;
+  width: 2em;
+  transition: width 0.1s, transform 0.3s;
+  cursor: pointer;
+}
+.Allforms .formBox .formHeader .equalizerFrom .eqImg img:hover {
+  width: 2.5em;
+}
+.Allforms .formBox .formHeader .equalizerFrom .eqImg img:active {
+  transform: rotate(360deg);
+}
+.Allforms .formBox .formHeader .equalizerFrom .eqDelet img {
+  right: 45px;
+  bottom: 5px;
+}
+.Allforms .formBox .formHeader .equalizerFrom .eqUpdate img {
+  right: 5px;
+  bottom: 5px;
+}/*# sourceMappingURL=style.css.map */

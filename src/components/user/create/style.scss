@@ -1,0 +1,57 @@
+.createBox {
+  width: calc(11.5vw + 278px);
+  padding-top: 5em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin: 0 auto;
+  .createBoxBody {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    textarea {
+      box-sizing: border-box;
+      padding: 1em 1em;
+      width: 100%;
+      border-radius: 10px;
+      border: 1px solid rgb(132, 163, 245);
+      transition: border 0.5s;
+      &:hover {
+        border: 1px solid rgb(88, 133, 255);
+      }
+      &:focus {
+        border: 1px solid rgb(88, 133, 255);
+      }
+      &::placeholder {
+        opacity: 0.5;
+      }
+    }
+    .createBoxBtn {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .arrow {
+        img {
+          width: 30px;
+          padding: 0.5em;
+          border-radius: 5px;
+          background-color: rgb(88, 255, 216);
+          border: 1px solid rgb(147, 245, 132);
+          transition: background-color 0.5s, color 0.5s;
+          cursor: pointer;
+          &:hover {
+            background-color: rgb(239, 243, 255);
+          }
+          &:active {
+            background-color: rgb(255, 255, 255);
+          }
+        }
+      }
+      .nextBtn {
+        img {
+          transform: rotate(180deg);
+        }
+      }
+    }
+  }
+}

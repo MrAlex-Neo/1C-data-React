@@ -1,0 +1,13 @@
+.createFormBox {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  width: 60%;
+  margin: 2em;
+  padding: 2em 1em;
+  border-radius: 20px;
+  border: 2px solid rgb(34, 211, 255);
+}
+.createFormBox .createBtn {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
