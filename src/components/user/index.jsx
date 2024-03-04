@@ -19,9 +19,9 @@ const MainPage = () => {
     useEffect(()=>{
         console.log(formId)
     },[formId])
-    
+
     const createFormHandler = async () => {
-        if (formId !== null) {
+        if (formId) {
             navigate(`/create/${formId}`)
         }else{
             alert("Выберите категорию")
