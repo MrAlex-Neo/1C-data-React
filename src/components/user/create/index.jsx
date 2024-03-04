@@ -31,8 +31,9 @@ const Create = () => {
       if (num > 0) {
         setNum((e) => e - 1);
       } else {
+        
         const result = window.confirm(
-          "Вы уверены, что хотите удалить элемент?"
+          "Вы действительно хотите прервать заполнение формы?"
         );
         if (result) {
           navigate("/");
