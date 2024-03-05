@@ -1,6 +1,7 @@
 .mainPage {
   width: calc(11.5vw + 278px);
   padding-top: 3em;
+  padding-bottom: 5em;
   display: flex;
   flex-direction: column;
   justify-content: center;
